@@ -1,0 +1,12 @@
+{
+  "name": "kurepay-gateway-node",
+  "version": "1.0.0",
+  "description": "A node package for making api calls to kurepay gateway",
+  "main": "index.js",
+  "repository": "https://github.com/osinakayah/kurepay-node.git",
+  "author": "Ifeanyi Osinakayah Joseph",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
