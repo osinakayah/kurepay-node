@@ -1482,10 +1482,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
 kurepay-gateway-node@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/kurepay-gateway-node/-/kurepay-gateway-node-1.0.0.tgz#3441020fb6edaf1360556bc185bff80de237058a"
-  integrity sha512-L3tVmevGSG5xieuZ5YYnQ6l7mZs8it/t+A/7pkxYNTEO96CZTgMEeLQsCgWJqFO170rVrJbWDUS2Z+OwdPxK/A==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/kurepay-gateway-node/-/kurepay-gateway-node-1.0.1.tgz#2202bb63e3f802a541d2e52a34057acf3e57ce30"
+  integrity sha512-m0xSsFBXtWGSYZFG9wBDs0OQ3xvkl5vXDPbe5+FiYYqHiTW7epK8xPK9nhySkpF5SEmZx71B7ZweuKHfJG/uUA==
   dependencies:
+    kurepay-gateway-node "^1.0.0"
     request "^2.88.0"
 
 lodash@^4.17.4:

@@ -4,14 +4,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel --presets es2015 -d lib/ index.js"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node package for making api calls to kurepay gateway",
   "main": "lib/index.js",
   "repository": "https://github.com/osinakayah/kurepay-node.git",
   "author": "Ifeanyi Osinakayah Joseph",
   "license": "MIT",
   "dependencies": {
-    "kurepay-gateway-node": "^1.0.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
