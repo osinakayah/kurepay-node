@@ -9,7 +9,12 @@ or
 yarn add kurepay-gateway-node
 
 ```javascript
-import KurepayGateway from 'kurepay-gateway-node'
+import {KurepayGateway} from 'kurepay-gateway-node'
+```
+or 
+
+```javascript
+const {KurepayGateway} = require('kurepay-gateway-node')
 ```
 
 Create a transaction

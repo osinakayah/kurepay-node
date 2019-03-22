@@ -1,7 +1,7 @@
 import request from 'request'
 
 
-const KurepayGateway = function () {
+export const KurepayGateway = function () {
     let publicKey = null;
     const verifyTransaction = (reference) => {
         return new Promise((resolve, reject) => {
@@ -59,7 +59,7 @@ const KurepayGateway = function () {
                             body = JSON.parse(body);
                         }
                         if (body.status == 11) {
-                            resolve(`https://payment.kurepay.com/#/initPayment/'.${body.data.reference}`)
+                            resolve(`https://payment.kurepay.com/#/initPayment/${body.data.reference}`)
                         }
                         else {
                             reject(body.message)
@@ -85,4 +85,4 @@ const KurepayGateway = function () {
     }
 }();
 
-export default KurepayGateway
+
